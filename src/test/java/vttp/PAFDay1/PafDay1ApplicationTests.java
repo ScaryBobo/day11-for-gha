@@ -31,7 +31,7 @@ class PafDay1ApplicationTests {
 
 	@Test
 	void shouldReturnCommentsList() {
-		List<Comment> testCommentList = gameRepo.getCommentsByGid(10, 0, 0);
+		List<Comment> testCommentList = gameRepo.getCommentsByGid(10, 10, 10);
 		Assertions.assertFalse(testCommentList.isEmpty());
 	}
 
